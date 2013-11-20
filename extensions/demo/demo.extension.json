@@ -1,0 +1,5 @@
+{
+  "title": "Demo",
+  "description": "Functionality specific for demo application.",
+  "dependencies": ["navigation", "page"]
+}

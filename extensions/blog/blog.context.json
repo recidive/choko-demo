@@ -1,0 +1,20 @@
+{
+  "title": "Blog",
+  "description": "Blog context.",
+  "conditions": {
+    "path": ["/blog", "/blog/*"]
+  },
+  "reactions": {
+    "layout": "two-columns-4-8",
+    "panel": {
+      "sidebar": [{
+        "name": "blog",
+        "weight": 0
+      },
+      {
+        "name": "lista",
+        "weight": 1
+      }]
+    }
+  }
+}

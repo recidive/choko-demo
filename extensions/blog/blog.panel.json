@@ -1,0 +1,8 @@
+{
+  "title": "Blog posts",
+  "description": "All blog posts.",
+  "type": "list",
+  "itemType": "blog",
+  "template": "templates/list-group.html",
+  "itemTemplate": "templates/blog-list-item.html"
+}

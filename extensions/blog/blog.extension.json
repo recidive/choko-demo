@@ -1,0 +1,5 @@
+{
+  "title": "Blog",
+  "description": "A simple blog extension for demo purposes.",
+  "dependencies": ["navigation", "page"]
+}

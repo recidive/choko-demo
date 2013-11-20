@@ -1,0 +1,7 @@
+{
+  "path": "/blog/:name",
+  "title": "Blog post",
+  "type": "item",
+  "itemType": "blog",
+  "template": "templates/blog-post.html"
+}

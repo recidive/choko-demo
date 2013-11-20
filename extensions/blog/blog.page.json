@@ -1,0 +1,9 @@
+{
+  "path": "/blog",
+  "title": "Blog posts",
+  "description": "All blog posts.",
+  "type": "list",
+  "itemType": "blog",
+  "template": "templates/simple.html",
+  "itemTemplate": "templates/blog-item.html"
+}
