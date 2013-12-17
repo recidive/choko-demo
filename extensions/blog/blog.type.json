@@ -1,6 +1,20 @@
 {
   "title": "Blog post",
   "description": "A simple blog post.",
-  "storage": "database"
+  "storage": "database",
+  "fields": {
+    "name": {
+      "title": "Name",
+      "type": "text"
+    },
+    "title": {
+      "title": "Title",
+      "type": "text"
+    },
+    "body": {
+      "name": "body",
+      "title": "Body",
+      "type": "text"
+    }
+  }
 }
-
