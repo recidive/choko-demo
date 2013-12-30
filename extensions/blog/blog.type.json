@@ -12,9 +12,15 @@
       "type": "text"
     },
     "body": {
-      "name": "body",
       "title": "Body",
       "type": "text"
     }
+  },
+  "access": {
+    "list": true,
+    "load": true,
+    "add": "manage-blog",
+    "edit": "manage-blog",
+    "delete": "manage-blog"
   }
 }
