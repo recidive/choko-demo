@@ -29,7 +29,6 @@ demo.page = function(pages, callback) {
     path: '/a-page',
     title: 'Hello world',
     description: 'A simple page with monolithic content.',
-    access: 'access application',
     content: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac vehicula lacus. Nullam facilisis ornare dolor eu imperdiet. Vivamus rutrum lacus non metus vestibulum placerat. Suspendisse potenti. Aliquam risus neque, elementum a nulla non, dapibus dictum orci. Etiam iaculis tincidunt diam, quis fringilla arcu tristique ultricies. Curabitur sem nisi, mollis ut purus vel, mollis molestie leo.</p>'
   };
 
@@ -37,7 +36,6 @@ demo.page = function(pages, callback) {
     path: '/a-page-callback',
     title: 'Hello world from a callback',
     description: 'A simple page with dynamically generated content.',
-    access: 'access application',
     callback: function(request, response, callback) {
       var paragraphs = [
         '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dui leo, posuere sit amet mattis pretium, pellentesque vitae sapien. Proin eget metus non velit faucibus iaculis. Sed dictum condimentum scelerisque. Morbi semper posuere dolor mattis varius. Donec est tellus, adipiscing ac ornare quis, gravida id mauris. Nunc a urna id quam cursus molestie. Ut ac tellus ac eros placerat dapibus non id massa.</p>',
@@ -86,7 +84,6 @@ demo.context = function(contexts, callback) {
   newContexts['demo'] = {
     title: 'Demo',
     description: '',
-    access: 'access application',
     weight: 0,
     conditions: {
       path: ['/a-page', '/a-page-callback']
