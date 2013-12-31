@@ -99,5 +99,8 @@ demo.context = function(contexts, callback) {
     }
   };
 
+  // Change default theme to amelia.
+  contexts['global'].reactions.theme = 'amelia';
+
   callback(null, newContexts);
 };
