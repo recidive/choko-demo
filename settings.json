@@ -1,0 +1,11 @@
+{
+  "database": "mongodb://localhost/demo",
+  "sessionSecret": "some-secret",
+  "application": {
+    "name": "Choko Demo"
+  },
+  "extensions": {
+    "blog": {},
+    "demo": {}
+  }
+}
