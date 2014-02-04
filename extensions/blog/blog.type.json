@@ -14,6 +14,11 @@
     "body": {
       "title": "Body",
       "type": "text"
+      "type": "text",
+      "element": {
+        "type": "textarea",
+        "rows": 5
+      }
     }
   },
   "access": {
