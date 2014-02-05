@@ -61,21 +61,6 @@ demo.page = function(pages, callback) {
 }
 
 /**
- * Blocks.
- */
-demo.panel= function(panels, callback) {
-  var newPanels = {};
-
-  newPanels['a-panel'] = {
-    title: 'A panel',
-    description: '',
-    content: '<p>Panel content.</p>'
-  };
-
-  callback(null, newPanels);
-};
-
-/**
  * The context() hook.
  */
 demo.context = function(contexts, callback) {
@@ -92,7 +77,7 @@ demo.context = function(contexts, callback) {
       layout: 'two-columns-4-8',
       panel: {
         'sidebar': [{
-          name: 'a-panel',
+          name: 'demo',
           weight: 0
         }]
       }
