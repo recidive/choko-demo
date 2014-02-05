@@ -14,7 +14,13 @@
       {
         "name": "lista",
         "weight": 1
-      }]
+      }],
+      "page-header": [
+        {
+          "name": "navigation-blog-toolbar",
+          "weight": 0
+        }
+      ]
     }
   }
 }

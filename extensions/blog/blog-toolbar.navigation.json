@@ -1,0 +1,16 @@
+{
+  "title": "Blog toolbar",
+  "template": "/templates/btn-group.html",
+  "classes": [
+    "btn-group-sm"
+  ],
+  "items": [
+    {
+      "title": "Add blog post",
+      "url": "/create/blog",
+      "classes": [
+        "btn-primary"
+      ]
+    }
+  ]
+}
