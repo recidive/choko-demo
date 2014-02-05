@@ -57,6 +57,11 @@ demo.page = function(pages, callback) {
     }
   };
 
+  // Override homepage.
+  pages['home'] = {
+    path: '/home'
+  };
+
   callback(null, newPages);
 }
 
