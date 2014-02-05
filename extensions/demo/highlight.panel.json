@@ -1,7 +1,7 @@
 {
   "title": "Demo application",
   "description": "Choko demonstration.",
-  "content": "<p>An application to demonstrate <a href=\"http://choko.org\">Choko</a> features.</p>  <p><a href=\"http://github.com/recidive/choko-demo\" class=\"btn btn-primary btn-lg\" role=\"button\">See the code</a></p>",
+  "content": "<p>An application to demonstrate <a href=\"http://choko.org\">Choko</a> features. You can <a href=\"#/sign-in\">sign in</a> as administrator with  username <em>admin</em> and password <em>admin123</em> to have access to the administration area.</p>  <p><a href=\"http://github.com/recidive/choko-demo\" class=\"btn btn-primary btn-lg\" role=\"button\">See the code</a></p>",
   "template": "templates/panel-jumbotron.html",
   "bare": true
 }
