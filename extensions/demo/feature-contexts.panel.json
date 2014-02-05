@@ -1,0 +1,8 @@
+{
+  "title": "Contexts",
+  "icon": "fa fa-tasks",
+  "description": "Contexts feature.",
+  "template": "/templates/panel-hero.html",
+  "content": "<p>Set how your application will look and behave on different circumstances.</p>",
+  "bare": true
+}

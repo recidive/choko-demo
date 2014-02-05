@@ -1,0 +1,8 @@
+{
+  "title": "Layouts",
+  "icon": "fa fa-columns",
+  "description": "Layouts feature.",
+  "template": "/templates/panel-hero.html",
+  "content": "<p>Handle multiple layouts with multiple regions each. Divide pages the way you need them.</p>",
+  "bare": true
+}

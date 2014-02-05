@@ -1,0 +1,8 @@
+{
+  "title": "Panels",
+  "icon": "fa fa-puzzle-piece",
+  "description": "Panels feature.",
+  "template": "/templates/panel-hero.html",
+  "content": "<p>Every element on the page is a panel, so you can position it wherever you want.</p>",
+  "bare": true
+}

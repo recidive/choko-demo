@@ -1,0 +1,8 @@
+{
+  "title": "Rules",
+  "icon": "fa fa-cogs",
+  "description": "Rules feature.",
+  "template": "/templates/panel-hero.html",
+  "content": "<p>Trigger asynchronous actions based on application events.</p>",
+  "bare": true
+}

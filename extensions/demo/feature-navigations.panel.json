@@ -1,0 +1,8 @@
+{
+  "title": "Navigations",
+  "icon": "fa fa-sitemap",
+  "description": "Navigations feature.",
+  "template": "/templates/panel-hero.html",
+  "content": "<p>Create navigations, tabs and toolbars to guide users through your application.</p>",
+  "bare": true
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Pages",
+  "icon": "fa fa-file",
+  "description": "Pages feature.",
+  "template": "/templates/panel-hero.html",
+  "content": "<p>Manage application pages such as landing pages, lists, forms, product page, etc.</p>",
+  "bare": true
+}
