@@ -15,8 +15,8 @@
       "title": "Body",
       "type": "text",
       "element": {
-        "type": "textarea",
-        "rows": 5
+        "type": "wysiwyg",
+        "height": 300
       }
     }
   },
